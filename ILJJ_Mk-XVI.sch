@@ -203,12 +203,12 @@ $Comp
 L Connector:Barrel_Jack_Switch J3
 U 1 1 5DC0161D
 P 1950 5700
-F 0 "J3" H 2005 6017 50  0000 C CNN
-F 1 "Barrel_Jack_Switch" H 2005 5926 50  0000 C CNN
+F 0 "J3" H 1950 5400 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 1950 5500 50  0000 C CNN
 F 2 "" H 2000 5660 50  0001 C CNN
 F 3 "~" H 2000 5660 50  0001 C CNN
 	1    1950 5700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_POT_Dual RV3
