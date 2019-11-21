@@ -265,7 +265,7 @@ U 1 1 5DC0A9AB
 P 2400 5900
 F 0 "C1" H 2488 5946 50  0000 L CNN
 F 1 "CP" H 2450 5800 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D6.3mm_P2.50mm" H 2400 5900 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D8.0mm_P3.50mm" H 2400 5900 50  0001 C CNN
 F 3 "~" H 2400 5900 50  0001 C CNN
 	1    2400 5900
 	1    0    0    -1  
@@ -379,7 +379,7 @@ U 1 1 5DC01219
 P 4950 6050
 F 0 "C7" H 5038 6096 50  0000 L CNN
 F 1 "CP" H 5050 6000 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.00mm" H 4950 6050 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D6.3mm_P2.50mm" H 4950 6050 50  0001 C CNN
 F 3 "~" H 4950 6050 50  0001 C CNN
 	1    4950 6050
 	1    0    0    -1  
