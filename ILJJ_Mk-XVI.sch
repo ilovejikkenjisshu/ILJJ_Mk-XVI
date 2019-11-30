@@ -122,10 +122,6 @@ F 3 "~" H 6900 2725 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6750 2700 6750 2550
-Wire Wire Line
-	6550 2700 6750 2700
-Wire Wire Line
 	6550 3200 6750 3200
 Wire Wire Line
 	6750 3200 6750 3050
@@ -165,7 +161,7 @@ U 1 1 5DC0B326
 P 2750 5900
 F 0 "C2" H 2842 5946 50  0000 L CNN
 F 1 "C" H 2800 5800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2750 5900 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D9.0mm_W5.0mm_P5.00mm" H 2750 5900 50  0001 C CNN
 F 3 "~" H 2750 5900 50  0001 C CNN
 	1    2750 5900
 	1    0    0    -1  
@@ -244,7 +240,7 @@ F 1 "R" H 4059 6005 50  0000 L CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4000 6050 50  0001 C CNN
 F 3 "~" H 4000 6050 50  0001 C CNN
 	1    4000 6050
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4000 5600 4000 5650
@@ -565,7 +561,6 @@ Wire Wire Line
 	4650 3550 5350 3550
 Wire Wire Line
 	4650 3550 4650 3650
-Connection ~ 6750 2550
 $Comp
 L Device:C C8
 U 1 1 5DC61210
@@ -601,8 +596,6 @@ F 3 "~" H 7550 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6850 2400 6750 2400
-Wire Wire Line
-	6750 2400 6750 2550
 Wire Wire Line
 	7450 2400 7550 2400
 $Comp
@@ -689,7 +682,6 @@ Wire Wire Line
 Wire Wire Line
 	7900 2650 8100 2650
 Connection ~ 7550 2400
-Connection ~ 6750 3050
 NoConn ~ 2250 5700
 Wire Wire Line
 	4400 5900 4450 5900
@@ -705,9 +697,6 @@ Connection ~ 6750 3200
 Wire Wire Line
 	5950 2300 5950 2700
 Wire Wire Line
-	5950 2700 6550 2700
-Connection ~ 6550 2700
-Wire Wire Line
 	6550 1800 6550 2400
 Wire Wire Line
 	5800 3150 6150 3150
@@ -719,4 +708,15 @@ Wire Wire Line
 	3550 5600 4000 5600
 Connection ~ 5350 3550
 Connection ~ 4650 3550
+Connection ~ 6550 2700
+Connection ~ 6750 3050
+Connection ~ 6750 2550
+Wire Wire Line
+	5950 2700 6550 2700
+Wire Wire Line
+	6550 2700 6750 2700
+Wire Wire Line
+	6750 2400 6750 2550
+Wire Wire Line
+	6750 2700 6750 2550
 $EndSCHEMATC
